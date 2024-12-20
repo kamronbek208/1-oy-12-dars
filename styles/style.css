@@ -204,8 +204,138 @@ margin-bottom: 20px;
     letter-spacing: -0.5px;
 }
 
+.plan {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.plan-top {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.plan-top .plan-title {
+    width: 523px;
+
+    font-size: 60px;
+    line-height: 70px;
+    color:#19191B;
+    letter-spacing: -1.88px;
+}
+
+.choose {
+    width: 346px;
+    padding: 5px;
+    background-color:#F7F7FB;
+    border-radius:10px;
+    display: flex;
+    align-items:center;
+    gap: 0px;
+}
+
+.choose button {
+    width: 50%;
+    border:none;
+    background-color:transparent;
+    cursor: pointer;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    transition: all 0.5s;
+    color:#19191B;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+}
+
+.choose button:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 
 
+.choose button:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.choose button:hover {
+    background-color:#5454D4;
+    color:#FFFFFF;
+}
+
+.plan-bottom {
+    margin-top: 82px;
+
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.plan-bottom .block {
+    background-color:#F8F8F8;
+    width: 330px;
+    padding: 34px 24px;
+    border-radius:10px;
+    text-align: center;
+
+    transition: all 0.5s;
+}
+
+.plan-bottom .block {
+    font-size: 18px;
+    letter-spacing: -0.56px;
+    margin-bottom: 22px;
+    color:#696871;
+}
+
+
+
+
+.plan-bottom .block h3 {
+    font-size: 60px;
+    letter-spacing: -1.03px;
+    margin-bottom: 28px;
+    color:#1D293F;
+}
+
+.plan-info {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-bottom: 36px;
+}
+
+.plan-info span {
+    font-size: 17px;
+    letter-spacing: -0.53px;
+    color:#696871;
+}
+
+.plan-bottom .block button {
+    width: 100%;
+    border:none;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    border-radius:10px;
+    cursor: pointer;
+    background-color:#EAE9F2;
+
+    font-size: 17px;
+    line-height: 19.92px;
+    letter-spacing:-0.5314737558364868;
+    color:#5454D4;
+
+ 
+
+}
+
+
+.plan-bottom .block:hover {
+    background-color:#FF7143;
+    color:#FFFFFF;
+    transform: scale(1.2);
+
+}
 
 
 
