@@ -179,6 +179,8 @@
 
 .hero2 {
     margin-top: 119px;
+    display: flex;
+    justify-content: space-between;
 }
 
 
